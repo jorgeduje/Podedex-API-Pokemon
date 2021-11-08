@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="icon" type="image/png" href="./assets/img/pokeball-icon.png">
+
+    <meta name="author" content="Michel Cruz">
+    <meta name="description" content="Find the Pokémon you saw recently.">
+    <meta name="Resource-type" content="Document">
+    
+    <!-- Open Graph data -->
+    <meta property="og:site_name" content="PokédexAPI">
+    <meta property="og:title" content="PokédexAPI">
+    <meta property="og:description" content="Find the Pokémon you saw recently.">
+    <meta property="og:image" content="https://taurien.github.io/Pokedex/assets/img/thumbnail.png">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://taurien.github.io/Pokedex/">
+
+    <title>Pokedex</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+    <div id="int">
+        <img id="previous" src="./assets/svg/arrow.svg">
+        <img id="next" src="./assets/svg/arrow.svg">
+    </div>
+
+
+    <div id="pokedex">
+        <div id="imgContainer">
+            <img id="prevPkImg" src="" alt="prev-pokemon-image">
+            <img id="pkImg" src="" alt="pokemon-image">
+            <img id="nextPkImg" src="" alt="next-pokemon-image">
+        </div>
+        <span id="pkName"></span>
+        <div id="pkType"></div>
+        <div id="pkStatsContainer"></div>
+        <div id="pkAbilities"></div>
+    </div>
+
+    
+
+
+    <script src="./js/main.js"></script>
+    <script src="./js/bg-daytime.js"></script>
+</body>
+</html>
